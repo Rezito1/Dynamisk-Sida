@@ -1,0 +1,20 @@
+
+{
+  "personal": {
+    "name": "Reza Nowrozi",
+    "title": "Fullstack .NET Developer",
+    "email": "nowrozireza1@gmail.com",
+    "phone": "073-938 94 24",
+    "address": "Råckstavägen 6, Bromma"
+  },
+  "skills": ["Motiverad", "Ansvarsfull", "Social", "Ambitiös", "Lättlärd"],
+  "experience": [
+    {"job": "Burgerking - Kök & städning", "year": "2016"},
+    {"job": "Förskolan - Tar hand om barn & ledarskap", "year": "2017"},
+    {"job": "Äldreboende - Vård av äldre & städning", "year": "2018"},
+    {"job": "Lager - Orderplockare och packning", "year": "2021-2026"}
+  ],
+  "education": [
+    {"school": "Drottning Blankas Gymnasium", "year": "2018-2021", "program": "Samhällsvetenskapliga programmet"}
+  ]
+}
