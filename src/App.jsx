@@ -8,7 +8,7 @@ import NavBar from "./components/Navbar"
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Dynamisk-Sida">
       <NavBar />
       <Routes>
         
