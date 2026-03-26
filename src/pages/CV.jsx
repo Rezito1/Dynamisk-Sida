@@ -1,4 +1,3 @@
-
 import cvData from "../data/cvData.json";
 
 export default function CV() {
@@ -9,15 +8,15 @@ export default function CV() {
 
       <h3>Skills:</h3>
       <ul>
-        {cvData.skills.map((skill, i) => (
-          <li key={i}>{skill}</li>
+        {cvData.skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
         ))}
       </ul>
 
       <h3>Experience:</h3>
       <ul>
-        {cvData.experience.map((job, i) => (
-          <li key={i}>
+        {cvData.experience.map((job, index) => (
+          <li key={index}>
             {job.job} - {job.year}
           </li>
         ))}
@@ -25,8 +24,8 @@ export default function CV() {
 
       <h3>Education:</h3>
       <ul>
-        {cvData.education.map((ed, i) => (
-          <li key={i}>
+        {cvData.education.map((ed, index) => (
+          <li key={index}>
             {ed.school} ({ed.year}) - {ed.program}
           </li>
         ))}
